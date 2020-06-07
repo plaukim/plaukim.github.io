@@ -408,9 +408,10 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
+  min-height: 100vh;
   background: url("../img/hero-bg.jpg");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 120px 0 60px 0;
 }
 
 #hero:before {
@@ -453,6 +454,8 @@ h6 {
   transition: 0.5s;
   color: #fff;
   background: #1acc8d;
+  margin: 5px;
+  width: 240px;
 }
 
 #hero .btn-get-started:hover {
@@ -525,7 +528,8 @@ h6 {
   width: 100%;
   height: 60px;
   z-index: 5;
-  position: relative;
+  position: absolute;
+  bottom: 0;
 }
 
 .wave1 use {
